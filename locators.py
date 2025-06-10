@@ -4,7 +4,7 @@ class WorkLocators:
     REGISTRATION_BUTTON = By.XPATH, "//*[text()='Вход и регистрация']"
     NO_ACCOUNT_BUTTON = By.XPATH, "//*[text()='Нет аккаунта']"
     CREATE_ACCOUNT_BUTTON = By.XPATH, "//*[text()='Создать аккаунт']"
-    ENTER_BUTTON = By.XPATH, "//*[text()='Войти']"
+    ENTER_BUTTON = By.XPATH, "//button[contains(@class, 'buttonPrimary') and contains(text(), 'Войти')]"
     QUIT_BUTTON = By.CSS_SELECTOR, ".spanGlobal.btnSmall"
     CREATE_AD_BUTTON = By.XPATH, "//*[text()='Разместить объявление']"
 
@@ -14,5 +14,4 @@ class WorkLocators:
     EMAIL_INPUT_ERROR_XPATH = By.XPATH, "//*[text()='Ошибка']"
     PASSWORD_INPUT_XPATH = By.XPATH, "//input[@placeholder='Пароль']"
     REPEAT_PASSWORD_XPATH = By.XPATH, "//input[@placeholder='Повторите пароль']"
-   
-
+    ADVERTISEMENT_AUTHORISATION_WINDOWS = By.XPATH, "//h1[text()='Чтобы разместить объявление, авторизуйтесь']"
