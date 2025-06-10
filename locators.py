@@ -11,6 +11,7 @@ class WorkLocators:
     PROFILE_NAME_CSS = By.CSS_SELECTOR, ".profileText.name"
     PROFILE_IMAGE_CSS = By.CSS_SELECTOR, ".circleSmall"
     EMAIL_INPUT_XPATH = By.XPATH, "//input[@placeholder='Введите Email']"
+    EMAIL_INPUT_ERROR_XPATH = By.XPATH, "//*[text()='Ошибка']"
     PASSWORD_INPUT_XPATH = By.XPATH, "//input[@placeholder='Пароль']"
     REPEAT_PASSWORD_XPATH = By.XPATH, "//input[@placeholder='Повторите пароль']"
    
